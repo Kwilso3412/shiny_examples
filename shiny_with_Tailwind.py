@@ -17,6 +17,8 @@ ui.page_opts(title="Dashboard",
                 id="page",
                 bg = "79bde9",
                 )
+# place this code within the  underneath the side bar so that you can use the code later
+# ui.tags.link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css")
 
 # Side bar
 with ui.sidebar(id="sidebar_left"):
