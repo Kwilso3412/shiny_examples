@@ -4,6 +4,9 @@ Just a bunch of examples that I have used Shiny and could be good references for
 
 * [embed shiny into your website](https://datasciencegenie.com/how-to-embed-a-shiny-app-on-website/)
 
+# Stock images 
+For stock images you'll want to use SVGs at [FontAwesome](https://fontawesome.com/search?q=face-&p=2&o=r) using the from faicons import icon_svg as icon
+
 # Deploy app
 * [One Resource](https://hosting.analythium.io/)
 * [Another Resource](https://hosting.analythium.io/how-many-shiny-apps-can-you-host-for-free/)
