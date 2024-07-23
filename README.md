@@ -4,7 +4,7 @@ Just a bunch of examples that I have used Shiny and could be good references for
 
 * [embed shiny into your website](https://datasciencegenie.com/how-to-embed-a-shiny-app-on-website/)
 
-# SVG Stock images 
+# SVG Stock Images 
 For stock images you'll want to use SVGs at [FontAwesome](https://fontawesome.com/search?q=face-&p=2&o=r) using the (from faicons import icon_svg as icon) library
 
 # Deploy app
