@@ -7,11 +7,7 @@ import sys
 # load data
 
 # Page Identifiers 
-ui.page_opts(title="NLP Dashboard", fillable=True, id="page", theme=theme.cyborg)
-
-# https://bootswatch.com/cyborg/
-theme.cyborg()
-
+ui.page_opts(title="Dashboard Title", fillable=True, id="page", theme=theme.cyborg)
 
 with ui.sidebar(id="sidebar_left"):
     ui.tags.link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css")
@@ -20,8 +16,7 @@ with ui.sidebar(id="sidebar_left"):
     
     with ui.panel_conditional("input.page == 'Example 2'"):
         ui.input_radio_buttons("ex2_radio", "Select Category", {"1":'Button 1', "2":"Button 2"})
-
-
+        
 
 def nav_content(title, body_id):
     with ui.div(class_="container mx-auto p-4", id = body_id):
@@ -32,8 +27,6 @@ time_id =  "ex1"
 with ui.nav_panel("Example 1" ):
     # Body
     nav_content(time_title, time_id)
-    
-
 
 nlp_title = "Example 2"
 nlp_id  =  "ex2"
