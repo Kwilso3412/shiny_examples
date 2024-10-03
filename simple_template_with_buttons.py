@@ -7,11 +7,7 @@ import sys
 # load data
 
 # Page Identifiers 
-ui.page_opts(title="Dashboard",
-                fillable=True,
-                id="page",
-                bg = "79bde9",
-                )
+ui.page_opts(title="NLP Dashboard", fillable=True, id="page", theme=theme.cyborg)
 
 # https://bootswatch.com/cyborg/
 theme.cyborg()
