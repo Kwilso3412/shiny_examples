@@ -28,7 +28,7 @@ def nav_content(title, body_id):
         sys.displayhook(ui.h1(title, class_="text-3xl font-bold text-yellow-400 mb-4"))
 
 time_title = "Example 1"
-time_id =  "ex1
+time_id =  "ex1"
 with ui.nav_panel("Example 1" ):
     # Body
     nav_content(time_title, time_id)
